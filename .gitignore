@@ -1,0 +1,14 @@
+# Ignore build output and temp files
+**/build/
+**/*.elf
+**/*.bin
+**/*.map
+**/sdkconfig.old
+
+# Python virtual env
+.python_env/
+
+# VSCode
+.vscode/
+*.code-workspace
+
