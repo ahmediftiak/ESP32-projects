@@ -77,7 +77,7 @@ ESP32-projects/
 
 ## ✍️ Author
 
-**Ahmed Iftiak**  
+**Iftiak Ahmed**  
 Learning embedded systems through practical ESP32 projects.
 
 ---
