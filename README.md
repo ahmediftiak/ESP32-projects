@@ -81,15 +81,15 @@ idf.py -p /dev/ttyUSB0 flash monitor
 
 ---
 
-## 📦 Structure
+## 📦 Project Structure
 
-```ESP32-projects/
-├── RTC_clock/         # DS3231 RTC with I2C driver
+```text
+ESP32-projects/
+├── RTC_clock/         # DS3231 RTC with custom I2C driver
 ├── led_toggle/        # LED + button GPIO toggle example
-├── max7219-driver/    # MAX7219 driver (7-seg / matrix displays)
-└── .gitignore         # Excludes build artifacts and temp files
+├── max7219-driver/    # MAX7219 driver (7-segment / dot-matrix displays)
+└── .gitignore         # Ignore build artifacts and temporary files
 ```
-
 ---
 
 ### 📌 Notes
