@@ -48,6 +48,31 @@ idf.py -p /dev/ttyACM0 flash monitor
 
 ---
 
+### 🔢 `max7219-driver/`
+Reusable driver for the MAX7219 LED controller chip. Supports both 7-segment and 8×8 dot-matrix displays.
+
+**Features:**
+- Modular driver (`max7219.c/.h`)
+- Code-B decode mode for 7-segment digits
+- Raw mode for matrix/segment bit control
+- Functions for showing digits, numbers, and rows
+- Leading-zero suppression option (for clocks)
+
+**Wiring (example 4-digit 7-segment):**
+
+| ESP32 GPIO | MAX7219 Pin |
+|:----------:|:-----------:|
+| GPIO23     | DIN         |
+| GPIO18     | CLK         |
+| GPIO5      | CS/LOAD     |
+
+**Usage:**
+```bash
+cd max7219-driver
+idf.py build
+idf.py -p /dev/ttyUSB0 flash monitor
+
+
 ## 🛠 Requirements
 
 - ESP-IDF v5.x
@@ -60,9 +85,11 @@ idf.py -p /dev/ttyACM0 flash monitor
 
 ```
 ESP32-projects/
-├── RTC_clock/        # DS3231 RTC with I2C driver
-├── led_toggle/       # LED + button GPIO toggle example
-└── .gitignore        # Excludes build artifacts and temp files
+├── RTC_clock/         # DS3231 RTC with I2C driver
+├── led_toggle/        # LED + button GPIO toggle example
+├── max7219-driver/    # MAX7219 driver (7-seg / matrix displays)
+└── .gitignore         # Excludes build artifacts and temp files
+
 ```
 
 ---
@@ -85,3 +112,5 @@ Learning embedded systems through practical ESP32 projects.
 ## 📜 License
 
 This repository is open-sourced under the MIT License.
+
+
