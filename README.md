@@ -81,8 +81,7 @@ idf.py -p /dev/ttyUSB0 flash monitor
 
 ---
 
-## 📦 Project Structure
-
+**📦 Project Structure**
 ```text
 ESP32-projects/
 ├── RTC_clock/         # DS3231 RTC with custom I2C driver
