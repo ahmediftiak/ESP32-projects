@@ -78,12 +78,12 @@ idf.py -p /dev/ttyUSB0 flash monitor
 - ESP-IDF v5.x
 - ESP32 development board (e.g., ESP32-S3)
 - USB access via `/dev/ttyACM0` or equivalent serial port
-
+```
 ---
+### 📦 Project Structure
 
-**📦 Project Structure**
 ```text
-ESP32-projects/
+esp32-projects/
 ├── RTC_clock/         # DS3231 RTC with custom I2C driver
 ├── led_toggle/        # LED + button GPIO toggle example
 ├── max7219-driver/    # MAX7219 driver (7-segment / dot-matrix displays)
