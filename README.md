@@ -89,12 +89,11 @@ ESP32-projects/
 ├── led_toggle/        # LED + button GPIO toggle example
 ├── max7219-driver/    # MAX7219 driver (7-seg / matrix displays)
 └── .gitignore         # Excludes build artifacts and temp files
-
 ```
 
 ---
 
-## 📌 Notes
+### 📌 Notes
 
 - Each project is standalone with its own `sdkconfig`.
 - Shared drivers like `i2c_helper` and `ds3231` live within project folders.
@@ -102,14 +101,14 @@ ESP32-projects/
 
 ---
 
-## ✍️ Author
+### ✍️ Author
 
 **Iftiak Ahmed**  
 Learning embedded systems through practical ESP32 projects.
 
 ---
 
-## 📜 License
+### 📜 License
 
 This repository is open-sourced under the MIT License.
 
