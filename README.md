@@ -83,8 +83,7 @@ idf.py -p /dev/ttyUSB0 flash monitor
 
 ## 📦 Structure
 
-```
-ESP32-projects/
+```ESP32-projects/
 ├── RTC_clock/         # DS3231 RTC with I2C driver
 ├── led_toggle/        # LED + button GPIO toggle example
 ├── max7219-driver/    # MAX7219 driver (7-seg / matrix displays)
